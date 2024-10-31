@@ -42,8 +42,6 @@ Al final de esta lección, serás capaz de:
 - Implementar estrategias de branching y merging en Git.
 - Colaborar eficazmente con otros en GitHub.
 
---- 
-
 Te invito a revisar a mayor detalle los comandos de git en [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf).
 
 ---
@@ -56,7 +54,7 @@ Cada vez que se guarda una versión del proyecto (conocido como commit en Git), 
 Se facilita revertir errores, revisar el historial de cambios y colaborar de manera eficiente con otros desarrolladores.
 
 <div>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1MWL23tZLyUn4MhkS7nFmr2EMe8L6zDp2-_GmwO5ioirZ-zqbaFPiHnxYJWX3Whto88&usqp=CAU" width=500 height=500>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1MWL23tZLyUn4MhkS7nFmr2EMe8L6zDp2-_GmwO5ioirZ-zqbaFPiHnxYJWX3Whto88&usqp=CAU" width=350 height=350>
 </div>
 
 ---
@@ -70,3 +68,22 @@ Se facilita revertir errores, revisar el historial de cambios y colaborar de man
 ## Configuración de la información del usuario 
 
 ![Configuración Usuario](/images/config-usuario.png)
+
+---
+
+# Comandos básicos de Git
+
+**Inicializar un nuevo repositorio**: Para empezar a utilizar el control de versiones de Git utiliza `git init` dentro del folder que se desee trackear.
+
+**Clonar un repositorio**: Para obtener una copia local de un repositorio en GitLab, utiliza el comando `git clone` seguido de la URL del repositorio.
+
+
+**Añadir y confirmar cambios**: Utiliza los comandos `git add` para añadir archivos y cambios al área de preparación, y `git commit` para confirmar los cambios con un mensaje descriptivo.
+
+
+**Enviar cambios al repositorio remoto**: Utiliza el comando `git push` seguido de origin y el nombre de la rama para enviar los cambios confirmados al repositorio remoto en GitLab.
+
+
+**Actualizar el repositorio local con los cambios remotos**: Utiliza el comando `git pull` para actualizar tu repositorio local con los cambios realizados por otros desarrolladores y enviados al repositorio remoto.
+
+**Consultar el estado de la rama actual**: Utiliza el comando `git status` para revisar los archivos modificados, agregados o eliminados.
