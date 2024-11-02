@@ -8,7 +8,8 @@ El contenido está estructurado para cubrir conceptos clave sobre la herramienta
 
 ## 📝 Temas Cubiertos
 
-1. **Introducción al Control de Versiones**: Comprensión del propósito y beneficios del control de versiones en el desarrollo de software.
+1. **Introducción al Control de Versiones**: 
+   - Comprensión del propósito y beneficios del control de versiones en el desarrollo de software.
 2. **Introducción a Git**: 
    - Instalación de Git
    - Configuración de la información del usuario
@@ -73,17 +74,14 @@ Se facilita revertir errores, revisar el historial de cambios y colaborar de man
 
 # Comandos básicos de Git
 
-**Inicializar un nuevo repositorio**: Para empezar a utilizar el control de versiones de Git utiliza `git init` dentro del folder que se desee trackear.
+ - **Inicializar un nuevo repositorio**: Para empezar a utilizar el control de versiones de Git utiliza `git init` dentro del folder que se desee trackear.
 
-**Clonar un repositorio**: Para obtener una copia local de un repositorio en GitLab, utiliza el comando `git clone` seguido de la URL del repositorio.
+  - **Clonar un repositorio**: Para obtener una copia local de un repositorio en GitLab, utiliza el comando `git clone` seguido de la URL del repositorio.
 
+  - **Añadir y confirmar cambios**: Utiliza los comandos `git add` para añadir archivos y cambios al área de preparación, y `git commit` para confirmar los cambios con un mensaje descriptivo.
 
-**Añadir y confirmar cambios**: Utiliza los comandos `git add` para añadir archivos y cambios al área de preparación, y `git commit` para confirmar los cambios con un mensaje descriptivo.
+  - **Enviar cambios al repositorio remoto**: Utiliza el comando `git push` seguido de origin y el nombre de la rama para enviar los cambios confirmados al repositorio remoto en GitLab.
 
+  - **Actualizar el repositorio local con los cambios remotos**: Utiliza el comando `git pull` para actualizar tu repositorio local con los cambios realizados por otros desarrolladores y enviados al repositorio remoto.
 
-**Enviar cambios al repositorio remoto**: Utiliza el comando `git push` seguido de origin y el nombre de la rama para enviar los cambios confirmados al repositorio remoto en GitLab.
-
-
-**Actualizar el repositorio local con los cambios remotos**: Utiliza el comando `git pull` para actualizar tu repositorio local con los cambios realizados por otros desarrolladores y enviados al repositorio remoto.
-
-**Consultar el estado de la rama actual**: Utiliza el comando `git status` para revisar los archivos modificados, agregados o eliminados.
+  - **Consultar el estado de la rama actual**: Utiliza el comando `git status` para revisar los archivos modificados, agregados o eliminados.
