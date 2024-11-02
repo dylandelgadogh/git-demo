@@ -85,3 +85,49 @@ Se facilita revertir errores, revisar el historial de cambios y colaborar de man
   - **Actualizar el repositorio local con los cambios remotos**: Utiliza el comando `git pull` para actualizar tu repositorio local con los cambios realizados por otros desarrolladores y enviados al repositorio remoto.
 
   - **Consultar el estado de la rama actual**: Utiliza el comando `git status` para revisar los archivos modificados, agregados o eliminados.
+
+# Branching y merging
+
+## Creación y cambio de ramas
+
+- **Crear una rama**: Utiliza el comando `git branch` seguido del nombre de la nueva rama para crearla.
+   - Ejemplo: `git branch feat/example-branch`
+
+- **Listar ramas**: Utiliza el comando `git branch`seguido del flag `--all` o `-a` para listar las ramas del repositorio local y el repositorio remoto.
+
+- **Saltar entre ramas**: Utiliza el comando `git checkout` seguido del nombre de la rama a la que se quiere "Saltar" (Cambiar).
+   - Ejemplo: `git checkout feat/example-branch`
+
+> [!TIP]
+> El comando `git checkout` también puede ser utilizado para crear ramas. Para esto, se utiliza `git checkout` seguido del flag `-b`, seguido del nombre de la nueva rama.
+> - Ejemplo: `git checkout -b feat/another-example-branch`
+
+- **Borrar una rama**: Utiliza el comando `git branch`seguido del flag `--delete` o `-d`, seguido del nombre de la rama que se desea eliminar.
+   - Ejemplo: `git branch -d feat/example-branch`
+
+> [!WARNING]
+> El comando `git branch -d <nombre-rama>` solo elimina la rama en tu repositorio local. 
+
+## Comprensión de los flujos de trabajo con ramas
+
+El flujo de trabajo incluye ramas específicas para el desarrollo (dev), las pruebas (test) y la producción (main). Asimismo, creamos ramas para las nuevas características de la aplicación (feature).
+
+![Git Workflow](/images/git-workflow.png)
+
+> [!WARNING]
+> Cualquier nuevo feature que se desee crear debe ser desde la rama productiva (main). 
+
+## Fusionar ramas y resolver conflictos
+
+## Fusionar ramas
+- **Fusionar ramas (Merge)**: Para iniciar una fusión entre ramas se debe seguir lo siguiente.
+   1. Saltamos a la rama donde se recibirán los cambios con `git checkout main`.
+   2. Indicamos la rama que contiene los cambios que queremos fusionar `git merge feat/example-branch`.
+   3. Se creará un commit sobre la fusión de los cambios y utilizamos el comando `git push` para publicarlos al repositorio remoto.
+
+## Conflictos en Git
+Un conflicto ocurre cuando Git no puede decidir automáticamente cómo combinar cambios en los mismos archivos o líneas de código. Algunas causas comunes incluyen:
+
+- **Ediciones en la Misma Línea**: Dos ramas tienen cambios en la misma línea de un archivo.
+- **Ediciones en la Misma Área del Código**: Cambios cercanos dentro de un archivo que Git no puede resolver automáticamente.
+- **Eliminación y Modificación Simultánea**: Un archivo se modifica en una rama y se elimina en otra.
