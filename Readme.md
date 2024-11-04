@@ -21,14 +21,9 @@ El contenido está estructurado para cubrir conceptos clave sobre la herramienta
    - Creación y cambio de ramas
    - Comprensión de los flujos de trabajo con ramas
    - Fusionar ramas y resolver conflictos
-5. **Colaboración con GitHub**: 
-   - Clonar repositorios
-   - Trabajar con remotos
-   - Pull, push y manejo de conflictos de fusión
-6. **Buenas Prácticas en Git**: 
-   - Convenciones para mensajes de commit
+5. **Buenas Prácticas en Git**: 
    - Uso de `.gitignore`
-   - Estrategias de branching (por ejemplo, ramas de características, ramas de lanzamiento)
+   - Estrategias de branching
 
 ## 💻 Requisitos
 
