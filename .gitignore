@@ -1,0 +1,8 @@
+# Ignoramos el folder /bin y todo los archivos que contiene
+/bin
+
+# Ignoramos múltiples archivos según criterios
+group-ignored-file-*
+
+# Ignoramos un archivo en específico
+specific-ignored-file.txt
