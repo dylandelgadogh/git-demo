@@ -80,3 +80,20 @@ Se facilita revertir errores, revisar el historial de cambios y colaborar de man
   - **Actualizar el repositorio local con los cambios remotos**: Utiliza el comando `git pull` para actualizar tu repositorio local con los cambios realizados por otros desarrolladores y enviados al repositorio remoto.
 
   - **Consultar el estado de la rama actual**: Utiliza el comando `git status` para revisar los archivos modificados, agregados o eliminados.
+
+
+# Buenas prácticas de Git
+
+## Uso de .gitignore
+
+ - Si no se requiere realizar el seguimiento de un archivo, se utiliza el archivo .gitignore que se incorpora en la raíz de tu repositorio. 
+ - En Git no hay ningún comando explícito para ignorar archivos: en su lugar, cuando tengas nuevos archivos que quieras ignorar, deberás editar y confirmar manualmente el archivo .gitignore. 
+ - Ejemplos de archivos que no requerieren seguimiento:
+   - Cachés de dependencias, como /node_modules o /packages.
+   - Directorios de salida de compilación, como /bin, /out o /target.
+
+## Estrategias de branching
+
+Para incorporar una nueva funcionalidad se deberá crear una nueva rama iniciando con `feat/nombre-funcionalidad`, el nombre de la funcionalidad debe contener `-` en lugar de espacios y no debe contener mayúsculas.
+
+Los repositorios deben contar con las ramas dev (desarrollo), test (pruebas) y main (productivo)
