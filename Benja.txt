@@ -1,0 +1,21 @@
+Esto se realizo en la capa de Git
+
+git init
+
+git clone - Ejecutado(Sirve para clonar un repositorio ya subido en la nube, en tu local)
+
+git add - Ejecutado (Sirve para agregar archivos o modificaciones al repo)
+
+git add . - Ejecutado (Sirve para agregar todos los archivos o modificaciones a la repo)
+
+git status - Ejecutado (Sirve para consultar el status de lo ejecutado)
+
+git reset HEAD^^ - Ejecutado (Sirve )
+
+git commit - Ejecutado
+
+git commit -m "Texto" - Ejecutado
+
+git push - Ejecutado
+
+git pull - Ejecutado
