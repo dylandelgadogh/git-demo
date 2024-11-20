@@ -10,7 +10,7 @@ git add . - Ejecutado (Sirve para agregar todos los archivos o modificaciones a 
 
 git status - Ejecutado (Sirve para consultar el status de lo ejecutado)
 
-git reset HEAD^^ - Ejecutado (Sirve )
+git reset HEAD^^ - Ejecutado 
 
 git commit - Ejecutado
 
@@ -18,4 +18,4 @@ git commit -m "Texto" - Ejecutado
 
 git push - Ejecutado
 
-git pull - Ejecutado
+git pull - Ejecutado (Sirve para actualizar los cambios)
