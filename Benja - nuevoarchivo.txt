@@ -31,7 +31,12 @@ git Branch -d feat/bsanchez
 
 git checkout feat/bsanchez - para movernos de rama
 
-git status
+git status (Ver el status de la actual de la accion realizada)
+-------
+git push --set-upstream origin feat/bsanchez (Para crear una conexión a la rama nueva, que se esta creando)
+
+git merge feat/bsanchez
+
 
 
 
