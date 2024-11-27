@@ -37,6 +37,10 @@ git push --set-upstream origin feat/bsanchez (Para crear una conexión a la rama
 
 git merge feat/bsanchez
 
+git pull
+
+git push
+
 
 
 
